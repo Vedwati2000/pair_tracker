@@ -1,0 +1,33 @@
+.tracker-navbar {
+    background: linear-gradient(135deg, #0d47a1, #2196f3);
+    padding: 14px 0;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
+}
+
+.tracker-navbar .navbar-brand {
+    font-size: 1.2rem;
+    letter-spacing: 0.3px;
+}
+
+.tracker-navbar .nav-link {
+    color: #e3f2fd;
+    margin: 0 8px;
+    transition: color 0.3s ease;
+}
+
+.tracker-navbar .nav-link:hover,
+.tracker-navbar .nav-link.active {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.tracker-navbar .btn {
+    color: #0d47a1;
+    font-weight: 600;
+    border: none;
+    transition: transform 0.2s ease;
+}
+
+.tracker-navbar .btn:hover {
+    transform: translateY(-2px);
+}

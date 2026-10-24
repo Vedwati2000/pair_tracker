@@ -1,0 +1,127 @@
+
+.mascot-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 15px;
+}
+
+.mascot-character {
+    position: relative;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mascot-ears {
+    display: flex;
+    justify-content: space-between;
+    width: 95px;
+    margin-bottom: -12px;
+    z-index: 1;
+}
+
+.mascot-ears span {
+    width: 28px;
+    height: 38px;
+    background: #2196f3;
+    border: 4px solid #0d47a1;
+    border-radius: 50% 50% 20% 20%;
+}
+
+.mascot-face {
+    width: 125px;
+    height: 105px;
+    background: linear-gradient(145deg, #ffffff, #e3f2fd);
+    border: 5px solid #1565c0;
+    border-radius: 45% 45% 42% 42%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 20px rgba(13, 71, 161, 0.18);
+    z-index: 2;
+}
+
+.mascot-eyes {
+    display: flex;
+    gap: 28px;
+    margin-bottom: 5px;
+}
+
+.mascot-eyes span {
+    width: 12px;
+    height: 15px;
+    background: #0d47a1;
+    border-radius: 50%;
+}
+
+.mascot-expression {
+    color: #0d47a1;
+    font-size: 21px;
+    font-weight: 700;
+    min-height: 28px;
+}
+
+.mascot-mouth {
+    width: 22px;
+    height: 7px;
+    border-bottom: 3px solid #1565c0;
+    border-radius: 50%;
+}
+
+.mascot-speaking .mascot-mouth {
+    animation: mascot-talk 0.25s infinite alternate;
+}
+
+.mascot-excited .mascot-mouth {
+    width: 24px;
+    height: 15px;
+    background: #1565c0;
+    border-radius: 5px 5px 50% 50%;
+}
+
+.mascot-body {
+    width: 85px;
+    height: 55px;
+    background: linear-gradient(145deg, #42a5f5, #1565c0);
+    border-radius: 25px 25px 18px 18px;
+    margin-top: -2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mascot-badge {
+    background: white;
+    color: #0d47a1;
+    font-weight: 700;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mascot-message {
+    max-width: 300px;
+    margin-top: 18px;
+    padding: 12px 18px;
+    text-align: center;
+    color: #0d47a1;
+    background: #e3f2fd;
+    border-radius: 15px;
+    font-weight: 500;
+}
+
+@keyframes mascot-talk {
+    from {
+        height: 4px;
+    }
+
+    to {
+        height: 17px;
+    }
+}

@@ -1,0 +1,28 @@
+.sessions-page {
+    background: #e3f2fd;
+}
+
+.sessions-page .card {
+    background: #ffffff;
+}
+
+.sessions-page .form-control,
+.sessions-page .form-select {
+    padding: 11px 14px;
+    border-radius: 10px;
+}
+
+.sessions-page .form-control:focus,
+.sessions-page .form-select:focus {
+    border-color: #2196f3;
+    box-shadow: 0 0 0 3px rgba(33, 150, 243, 0.12);
+}
+
+.sessions-page .table thead th {
+    color: #0d47a1;
+    white-space: nowrap;
+}
+
+.sessions-page .table td {
+    min-width: 100px;
+}

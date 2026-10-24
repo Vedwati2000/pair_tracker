@@ -1,0 +1,32 @@
+.dashboard-page {
+    background: #e3f2fd;
+}
+
+.stat-card {
+    border-radius: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(33, 150, 243, 0.15) !important;
+}
+
+.stat-card h2 {
+    color: #0d47a1;
+}
+
+.chart-container {
+    position: relative;
+    height: 320px;
+    width: 100%;
+}
+
+.dashboard-page .card {
+    background: #ffffff;
+}
+
+.dashboard-page .table thead th {
+    color: #0d47a1;
+    font-weight: 600;
+}
