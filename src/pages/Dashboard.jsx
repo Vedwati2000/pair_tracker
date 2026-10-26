@@ -181,11 +181,10 @@ function Dashboard() {
                                                 <td>{session.duration} min</td>
 
                                                 <td>
-                                                    <span className={`badge ${
-                                                        session.status === "completed"
+                                                    <span className={`badge ${session.status === "completed"
                                                             ? "bg-success"
                                                             : "bg-warning text-dark"
-                                                    }`}>
+                                                        }`}>
                                                         {session.status}
                                                     </span>
                                                 </td>
